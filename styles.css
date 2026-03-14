@@ -1,0 +1,109 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+    min-width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    font-family: "Figtree", sans-serif;
+    width: 275px;
+    border-radius: 10px;
+    padding: 0 20px 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 7%); 
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.date{
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.title-card{
+    margin: 8px 0;
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 7%);
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content{
+    display: flex;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 42%);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.illustration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 10px;
+    width: 35px;
+    height: 35px;
+}
